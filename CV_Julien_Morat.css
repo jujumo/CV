@@ -1,0 +1,335 @@
+body {
+	margin-right: auto;
+	margin-left: auto;
+	color: #555;
+	font-family:Verdana;
+	padding:0px;
+	font-size:12px;
+}
+
+@media screen {
+	body {
+		width: 21cm;
+		background:#555;
+		border-left: 1px solid #333;
+		border-right: 1px solid #333;
+	}
+}
+
+@media print {
+	body {
+		width: 100%;
+	}
+}
+
+* {
+	border:0px;
+	margin:0px;
+	padding:0px;
+}
+
+.download:after{
+	content:url(images/external_link.gif);
+	padding: 0px;
+	margin: -10px 0px -10px 3px;
+}
+
+a, a:visited{
+	text-decoration:none;
+	color:#4756AD;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+h2{
+	font-size:18px;
+	font-weight:bold;
+	text-align:left;
+	border-bottom: 4px solid #4756AD;
+	background: #202020;
+	color:#eee;
+	padding:7px 5px 5px 20px;
+	margin:0px;
+	font-family:Arial;
+}
+
+h3{
+	display:inline;
+	font-weight:bold;
+	font-family:Arial;
+	font-size:14px;
+}
+
+#header{
+	border:0px solid #000;
+	padding:0px;
+	margin:0px;
+	background: #DDD;
+}
+
+#header #name:before {
+	content:url(images/me.svg);
+	margin-right:0.5em;
+}
+
+#header #nation:before {
+	content:url(images/flag.svg);
+	margin-right:0.5em;
+}
+
+#header #phone:before {
+	content:url(images/phone.svg);
+	margin-right:0.5em;
+}
+
+#header #email:before {
+	content:url(images/email.svg);
+	margin-right:0.5em;
+}
+
+#header #info{
+	display: inline;
+	float:left;
+	font-size:12px;
+	margin:10px;
+}
+
+#header #photo{
+	float:right;
+	margin:0;
+	padding:0;
+}
+
+#header h1 {
+	padding:0.5em 0.5em 0em 0.2em;
+}
+
+h1{
+	font-size:25px;
+	font-weight:bold;
+	text-align:center;
+	margin:0px;
+	font-family:Arial;
+}
+
+h1#subtitle{
+	font-size:15px;
+	line-height:1em;
+	text-align:center;
+	padding: 2px 2px 0px 2px;
+	margin-bottom: 0.5em;
+	font-family:Verdana;
+}
+
+#footer{
+	text-align: right;
+	border:0px solid #000;
+	padding:10px;
+	margin:0px;
+	background: #DDD;
+	border-top: 3px solid #4756AD;
+}
+
+#content{
+	clear:both;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	background: #DDD;
+	position: relative;
+}
+
+#diploma{
+	display: inline-block;
+	vertical-align: top;
+	width:59%;
+}
+
+#nutshell{
+	display: inline-block;
+	vertical-align: top;
+	width:40%;
+}
+
+ul {
+	/*list-style-type:none;*/
+	list-style-image: url('images/arrow.svg');
+	margin:0px;
+	padding:0px;
+}
+
+li {
+	/*list-style-type: none;*/
+	margin-left:5px;
+	padding-left:0px;
+	padding-top:0.2em;
+	padding-bottom:0.2em;
+}
+
+table.itemize {
+	width:100%;
+	font-size:100%;
+}
+
+table.itemize tr td {
+	padding:1em;
+	margin:0px;
+}
+
+table.itemize tr:hover {
+	background: #FFF;
+}
+
+table.itemize .logo {
+	padding:3px 0 5px 0px;
+	width:100%;
+}
+
+table.itemize tr td.section-header {
+	padding:0px;
+	margin:0px;
+}
+
+table.itemize tr td.title {
+	width:2.5cm;
+	text-align:right;
+	padding:0.1em 1em 0.1em 1em;
+	/*background: #CCD;*/
+	border-right:4px solid #4756AD;
+}
+
+table.itemize tr td.millestone {
+	padding:0px;
+	margin:0px;
+	background-color:#FFF;
+}
+
+span.date{ 
+	font-size:9pt;
+	float: left;
+	display: block;
+	position:absolute;
+	border-radius: 0 0 4px 0; 
+	padding:0px 7px 2px 7px;
+	margin:0px 1px 10px 0px;
+	background-color: #FFF;
+	color:#555;
+}
+
+.skills:before{
+	content:url(images/skills.svg);
+	padding: 0px;
+	margin: -10px 5px -10px 5px;
+}
+
+.skills{
+	font-weight:bold;
+	display: block;
+}
+
+.position 
+{
+	font-size:120%;
+	display: inline;
+	font-family: "arial";
+	font-weight:bold;
+	color: #4756AD;
+	padding-bottom: 0.5em;
+	margin:0px;
+	margin-left:-5px;
+}
+
+.diplome
+{
+	font-size:120%;
+	font-family: "arial";
+	font-weight:bold;
+	color: #111;
+}
+
+.duration{
+	font-family: "Lucida Sans Unicode"
+}
+
+.place{
+	font-style: italic;
+	font-size: 1.3em;
+	color:#505050;
+}
+
+.location{
+	display: none;
+}
+
+.adresse{
+	font-style: italic;
+	color:#505050;
+}
+
+#diagram {
+	width: 95%;
+}
+
+@media print{
+body {
+    box-shadow: inset 0 0 0 100px #EEE;
+    text-shadow: 0 0 0 #333;
+	width: 100%;
+}
+
+h2 {
+    box-shadow: inset 0 0 0 100px black;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 0 #DBDACE;
+}
+
+table.itemize {
+	width:100%;
+	font-size:80%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border: 0;
+}
+table.itemize tr td {
+    box-shadow: inset 0 0 0 100px #EEE;
+    text-shadow: 0 0 0 #333;
+}
+
+table.itemize tr td.millestone span {
+    box-shadow: inset 0 0 0 100px #FFF;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 0 #555;
+}
+
+table.itemize tr td.millestone
+{
+    box-shadow: inset 0 0 0 100px #DDD;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 0 red;
+}
+
+#header, .title {
+    box-shadow: inset 0 0 0 100px #DDD;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 0 #000;
+}
+
+.download {
+	display: none;
+}
+
+#diploma{
+	width:65%;
+}
+
+#nutshell{
+	width:34%;
+}
+
+#footer{
+	display: none;
+}
+
+}
