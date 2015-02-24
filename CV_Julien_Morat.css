@@ -1,18 +1,16 @@
 body {
 	margin-right: auto;
 	margin-left: auto;
-	color: #555;
 	font-family:Verdana;
 	padding:0px;
 	font-size:12px;
 }
 
+/** geometry **/
+
 @media screen {
 	body {
 		width: 21cm;
-		background:#555;
-		border-left: 1px solid #333;
-		border-right: 1px solid #333;
 	}
 }
 
@@ -47,9 +45,6 @@ h2{
 	font-size:18px;
 	font-weight:bold;
 	text-align:left;
-	border-bottom: 4px solid #4756AD;
-	background: #202020;
-	color:#eee;
 	padding:7px 5px 5px 20px;
 	margin:0px;
 	font-family:Arial;
@@ -66,7 +61,6 @@ h3{
 	border:0px solid #000;
 	padding:0px;
 	margin:0px;
-	background: #DDD;
 }
 
 #header #name:before {
@@ -125,11 +119,8 @@ h1#subtitle{
 
 #footer{
 	text-align: right;
-	border:0px solid #000;
 	padding:10px;
 	margin:0px;
-	background: #DDD;
-	border-top: 3px solid #4756AD;
 }
 
 #content{
@@ -137,7 +128,6 @@ h1#subtitle{
 	border:0px;
 	margin:0px;
 	padding:0px;
-	background: #DDD;
 	position: relative;
 }
 
@@ -178,10 +168,6 @@ table.itemize tr td {
 	margin:0px;
 }
 
-table.itemize tr:hover {
-	background: #FFF;
-}
-
 table.itemize .logo {
 	padding:3px 0 5px 0px;
 	width:100%;
@@ -196,17 +182,15 @@ table.itemize tr td.title {
 	width:2.5cm;
 	text-align:right;
 	padding:0.1em 1em 0.1em 1em;
-	/*background: #CCD;*/
-	border-right:4px solid #4756AD;
 }
 
 table.itemize tr td.millestone {
 	padding:0px;
 	margin:0px;
-	background-color:#FFF;
 }
 
 span.date{ 
+	background-color: #FFF;
 	font-size:9pt;
 	float: left;
 	display: block;
@@ -214,7 +198,6 @@ span.date{
 	border-radius: 0 0 4px 0; 
 	padding:0px 7px 2px 7px;
 	margin:0px 1px 10px 0px;
-	background-color: #FFF;
 	color:#555;
 }
 
@@ -224,29 +207,25 @@ span.date{
 	margin: -10px 5px -10px 5px;
 }
 
-.skills{
+.skills {
 	font-weight:bold;
 	display: block;
 }
 
-.position 
-{
+.position {
 	font-size:120%;
 	display: inline;
 	font-family: "arial";
 	font-weight:bold;
-	color: #4756AD;
 	padding-bottom: 0.5em;
 	margin:0px;
 	margin-left:-5px;
 }
 
-.diplome
-{
+.diplome {
 	font-size:120%;
 	font-family: "arial";
 	font-weight:bold;
-	color: #111;
 }
 
 .duration{
@@ -263,15 +242,68 @@ span.date{
 	display: none;
 }
 
-.adresse{
-	font-style: italic;
-	color:#505050;
-}
-
 #diagram {
 	width: 95%;
 }
 
+/************************************************************/
+/************************ COLORS ****************************/
+/************************************************************/
+:root {
+  --main-dark-primary-color:    #0097A7;
+  --main-default-primary-color: #00BCD4;
+  --main-light-primary-color:   #B2EBF2;
+  --main-text-primary-color:    #FFFFFF;
+  
+  --main-accent-color: #FFC107;
+  --main-primary-text-color: #212121;
+  --main-secondary-text-color: #727272;
+  --main-divider-color: #B6B6B6;
+}
+
+body {
+	color: var(--main-primary-text-color);
+	background: #FAFAFA;
+}
+
+#header{
+	color: var(--main-text-primary-color);
+	background-color: var(--main-dark-primary-color);
+}
+	
+h2 {
+	color: var(--main-primary-text-color);
+	background: var(--main-default-primary-color);
+	border-bottom: 4px solid var(--main-divider-color);
+}
+
+.position {
+	color: var(--main-primary-text-color);
+}
+
+.diplome {
+	color: var(--main-primary-text-color);
+}
+
+table.itemize tr td.title {
+	border-right:4px solid var(--main-accent-color);
+}
+
+table.itemize tr td.millestone {
+	background-color: var(--main-divider-color);
+}
+	
+table.itemize tr:hover {
+	background: #FFF;
+}
+
+#footer {
+	border:0px solid #000;
+	border-top: 3px solid var(--main-divider-color);
+	background: var(--main-default-primary-color);
+}
+
+/*
 @media print{
 body {
     box-shadow: inset 0 0 0 100px #EEE;
@@ -292,6 +324,7 @@ table.itemize {
 	border-collapse: collapse;
 	border: 0;
 }
+
 table.itemize tr td {
     box-shadow: inset 0 0 0 100px #EEE;
     text-shadow: 0 0 0 #333;
@@ -333,3 +366,4 @@ table.itemize tr td.millestone
 }
 
 }
+*/
