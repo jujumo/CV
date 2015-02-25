@@ -33,9 +33,9 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
+     inkscape:window-width="1855"
      inkscape:window-height="1056"
-     inkscape:window-x="0"
+     inkscape:window-x="1985"
      inkscape:window-y="24"
      inkscape:window-maximized="1">
     <inkscape:grid
@@ -64,7 +64,7 @@
      id="layer1"
      transform="translate(0,-1036.3622)">
     <path
-       style="fill:#4756ad;fill-opacity:1;stroke:none"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
        d="m 5,4 c 3,0 7,6 7,6 0,0 -4,6 -7,6 C 5,14 5,6 5,4 z"
        id="path3757"
        inkscape:connector-curvature="0"
