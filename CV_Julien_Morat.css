@@ -6,6 +6,8 @@ body {
 	font-size:12px;
 }
 
+/***********************************************/
+
 /** geometry **/
 
 @media screen {
@@ -190,7 +192,6 @@ table.itemize tr td.millestone {
 }
 
 span.date{ 
-	background-color: #FFF;
 	font-size:9pt;
 	float: left;
 	display: block;
@@ -198,7 +199,6 @@ span.date{
 	border-radius: 0 0 4px 0; 
 	padding:0px 7px 2px 7px;
 	margin:0px 1px 10px 0px;
-	color:#555;
 }
 
 .skills:before{
@@ -250,30 +250,31 @@ span.date{
 /************************ COLORS ****************************/
 /************************************************************/
 :root {
-  --main-dark-primary-color:    #0097A7;
-  --main-default-primary-color: #00BCD4;
-  --main-light-primary-color:   #B2EBF2;
-  --main-text-primary-color:    #FFFFFF;
+  --main-dark-primary-color:    #353A3E;
+  --main-default-primary-color: #3357A1;
+  --main-light-primary-color:   #F5F5F5;
+  --main-text-primary-color:    #DDDDDD;
   
-  --main-accent-color: #FFC107;
+  --main-accent-color: #F5F5F5;
   --main-primary-text-color: #212121;
   --main-secondary-text-color: #727272;
   --main-divider-color: #B6B6B6;
 }
 
+
 body {
-	color: var(--main-primary-text-color);
-	background: #FAFAFA;
+	color: var(--main-secondary-text-color);
+	background: var(--main-text-primary-color);
 }
 
 #header{
 	color: var(--main-text-primary-color);
-	background-color: var(--main-dark-primary-color);
+	background-color: var(--main-default-primary-color);
 }
 	
 h2 {
-	color: var(--main-primary-text-color);
-	background: var(--main-default-primary-color);
+	color: var(--main-text-primary-color);
+	background: var(--main-dark-primary-color);
 	border-bottom: 4px solid var(--main-divider-color);
 }
 
@@ -292,6 +293,11 @@ table.itemize tr td.title {
 table.itemize tr td.millestone {
 	background-color: var(--main-divider-color);
 }
+
+span.date{ 
+	color: var(--main-primary-text-color);
+	background-color: var(--main-divider-color);
+}
 	
 table.itemize tr:hover {
 	background: #FFF;
@@ -300,7 +306,7 @@ table.itemize tr:hover {
 #footer {
 	border:0px solid #000;
 	border-top: 3px solid var(--main-divider-color);
-	background: var(--main-default-primary-color);
+	background: var(--main-dark-primary-color);
 }
 
 /*
