@@ -36,7 +36,6 @@ body {
 
 a, a:visited{
 	text-decoration:none;
-	color:#4756AD;
 }
 
 a:hover{
@@ -271,7 +270,12 @@ body {
 	color: var(--main-text-primary-color);
 	background-color: var(--main-default-primary-color);
 }
-	
+
+a, a:visited{
+	text-decoration:none;
+	color: (--main-accent-color);
+}
+
 h2 {
 	color: var(--main-text-primary-color);
 	background: var(--main-dark-primary-color);
@@ -309,11 +313,9 @@ table.itemize tr:hover {
 	background: var(--main-dark-primary-color);
 }
 
-/*
+
 @media print{
 body {
-    box-shadow: inset 0 0 0 100px #EEE;
-    text-shadow: 0 0 0 #333;
 	width: 100%;
 }
 
@@ -331,28 +333,17 @@ table.itemize {
 	border: 0;
 }
 
-table.itemize tr td {
-    box-shadow: inset 0 0 0 100px #EEE;
-    text-shadow: 0 0 0 #333;
-}
-
 table.itemize tr td.millestone span {
-    box-shadow: inset 0 0 0 100px #FFF;
+    box-shadow: inset 0 0 0 100px var(--main-divider-color);
     color: rgba(0, 0, 0, 0);
     text-shadow: 0 0 0 #555;
 }
 
 table.itemize tr td.millestone
 {
-    box-shadow: inset 0 0 0 100px #DDD;
+    box-shadow: inset 0 0 0 100px var(--main-divider-color);
     color: rgba(0, 0, 0, 0);
     text-shadow: 0 0 0 red;
-}
-
-#header, .title {
-    box-shadow: inset 0 0 0 100px #DDD;
-    color: rgba(0, 0, 0, 0);
-    text-shadow: 0 0 0 #000;
 }
 
 .download {
@@ -372,4 +363,4 @@ table.itemize tr td.millestone
 }
 
 }
-*/
+
