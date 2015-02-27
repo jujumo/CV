@@ -46,7 +46,7 @@ h2{
 	font-size:18px;
 	font-weight:bold;
 	text-align:left;
-	padding:7px 5px 5px 20px;
+	padding:5px 5px 5px 0.5em;
 	margin:0px;
 	font-family:Arial;
 }
@@ -155,8 +155,8 @@ li {
 	/*list-style-type: none;*/
 	margin-left:5px;
 	padding-left:0px;
-	padding-top:0.2em;
-	padding-bottom:0.2em;
+	padding-top:0.1em;
+	padding-bottom:0.0em;
 }
 
 table.itemize {
@@ -307,6 +307,7 @@ table.itemize tr:hover {
 @media print{
 body {
 	width: 100%;
+	color: #727272;
 }
 
 #header{
@@ -320,7 +321,7 @@ body {
 }
 
 h2 {
-    box-shadow: inset 0 0 0 100px black;
+    box-shadow: inset 0 0 0 100px #353A3E;
     color: rgba(0, 0, 0, 0);
     text-shadow: 0 0 0 #DBDACE;
 }
