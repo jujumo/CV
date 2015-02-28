@@ -16,12 +16,6 @@ body {
 	}
 }
 
-@media print {
-	body {
-		width: 100%;
-	}
-}
-
 * {
 	border:0px;
 	margin:0px;
@@ -40,22 +34,6 @@ a, a:visited{
 
 a:hover{
 	text-decoration: underline;
-}
-
-h2{
-	font-size:18px;
-	font-weight:bold;
-	text-align:left;
-	padding:5px 5px 5px 0.5em;
-	margin:0px;
-	font-family:Arial;
-}
-
-h3{
-	display:inline;
-	font-weight:bold;
-	font-family:Arial;
-	font-size:14px;
 }
 
 #header{
@@ -87,7 +65,7 @@ h3{
 #header #info{
 	display: inline;
 	float:left;
-	font-size:12px;
+	/*font-size:12px;*/
 	margin:10px;
 }
 
@@ -98,24 +76,21 @@ h3{
 }
 
 #header h1 {
-	padding:0.5em 0.5em 0em 0.2em;
-}
-
-h1{
-	font-size:25px;
+	padding:0.5em 0.5em 0em 0.5em;
+	/*font-size:25px;*/
 	font-weight:bold;
 	text-align:center;
 	margin:0px;
 	font-family:Arial;
 }
 
-h1#subtitle{
-	font-size:15px;
-	line-height:1em;
+#header h2 {
+	padding:0em 0.5em 0.3em 0.5em;
+	/*font-size:25px;*/
+	/*font-weight:bold;*/
 	text-align:center;
-	padding: 2px 2px 0px 2px;
-	margin-bottom: 0.5em;
-	font-family:Verdana;
+	margin:0px;
+	/*font-family:Arial;*/
 }
 
 #footer{
@@ -130,6 +105,20 @@ h1#subtitle{
 	margin:0px;
 	padding:0px;
 	position: relative;
+}
+
+#content h2{
+	font-weight:bold;
+	text-align:left;
+	padding:5px 5px 5px 0.5em;
+	margin:0px;
+	font-family:Arial;
+}
+
+#content h3{
+	display:inline;
+	font-weight:bold;
+	font-family:Arial;
 }
 
 #diploma{
@@ -263,11 +252,11 @@ a, a:visited{
 	background-color: #3357A1;
 }
 
-#header a, a:visited{
+#header a, #header a:visited{
 	color: #DDDDDD;
 }
 
-h2 {
+#content h2 {
 	color: #DDDDDD;
 	background: #353A3E;
 	border-bottom: 2px solid #B6B6B6;
@@ -305,7 +294,9 @@ table.itemize tr:hover {
 }
 
 @media print{
+
 body {
+	font-size:11px;
 	width: 100%;
 	color: #727272;
 }
@@ -317,10 +308,10 @@ body {
 }
 
 #header h1 {
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
 }
 
-h2 {
+#content h2 {
     box-shadow: inset 0 0 0 100px #353A3E;
     color: rgba(0, 0, 0, 0);
     text-shadow: 0 0 0 #DBDACE;
@@ -328,10 +319,11 @@ h2 {
 
 table.itemize {
 	width:100%;
-	font-size:80%;
 	border-spacing: 0;
 	border-collapse: collapse;
-	border: 0;
+	border: 0;    
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 0 #727272;
 }
 
 table.itemize tr td.millestone span {
