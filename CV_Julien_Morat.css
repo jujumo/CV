@@ -23,7 +23,7 @@ body {
 }
 
 .download:after{
-	background 	:url(images/external_link.gif) CENTER CENTER NO-REPEAT;
+	background 	:url(images/link-extern.svg) CENTER CENTER NO-REPEAT;
 	content		:url(images/empty.svg);
 	padding		: 0px;
 	margin		: -3px 0px -3px 3px;
