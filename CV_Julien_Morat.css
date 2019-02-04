@@ -316,10 +316,16 @@ table.itemize tr:hover {
 @media print{
 
 body {
-	font-size:11px;
 	width: 100%;
 	color: #101010;
 	-webkit-print-color-adjust: exact;
+}
+
+li {
+	/*list-style-type: none;*/
+	margin-top:0px;
+	padding-top:-0.1em;
+	padding-bottom:-2em;
 }
 
 .html_only {
