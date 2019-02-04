@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html dir="ltr" class="client-js" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script async="" src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/load_002.php"></script>
+<meta charset="UTF-8">
+<title>Autopano Video - Stereo (3D) - Autopano</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+<meta name="generator" content="MediaWiki 1.23.6">
+<link rel="shortcut icon" href="http://www.kolor.com/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="http://www.kolor.com/wiki-en/opensearch_desc.php" title="Autopano (en)">
+<link rel="EditURI" type="application/rsd+xml" href="http://www.kolor.com/wiki-en/api.php?action=rsd">
+<link rel="copyright" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+<link rel="alternate" type="application/atom+xml" title="Autopano Atom feed" href="http://www.kolor.com/wiki-en/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="stylesheet" href="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/load_002.css">
+<link rel="stylesheet" href="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/bootstrap.txt" media="screen">
+<link rel="stylesheet" href="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/bootstrap-blue.css" media="screen">
+<link rel="stylesheet" href="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/screen.css" media="screen">
+<link rel="stylesheet" href="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/theme.css" media="screen">
+<link rel="stylesheet" href="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/jquery-ui.css" media="screen">
+<link rel="stylesheet" href="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/font.css" media="screen">
+<link rel="stylesheet" href="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/glyphicons.css" media="screen">
+<link rel="stylesheet" href="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/fam-icons.css" media="screen">
+<link rel="stylesheet" href="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/typography.css" media="screen">
+<link rel="stylesheet" href="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/misc.css" media="screen">
+<link rel="stylesheet" href="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/social-buttons.css" media="screen">
+<link rel="stylesheet" href="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/prettify.css" media="screen"><style>
+.trail{display:inline-block;font-family:"Tahoma",Arial,sans-serif;font-size:13px;line-height:18px;text-decoration:none;text-transform:uppercase}div.trail a:hover{color:#303030 }div.trail a:active{color:#585858 }.trail .text{border:1px solid #ddd;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;padding:5px}.trail .text:hover{border-color:#d0d0d0;-moz-box-shadow:0px 0px 5px rgba(0,0,0,0.2);-webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.2);box-shadow:0px 0px 5px rgba(0,0,0,0.2)}.trail .text.current:hover{-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none}.trail .text.current:active{-moz-box-shadow:0px 1px 1px rgba(255,255,255,0.3),inset 0px 1px 2px rgba(0,0,0,0.15);-webkit-box-shadow:0px 1px 1px rgba(255,255,255,0.3),inset 0px 1px 2px rgba(0,0,0,0.15);box-shadow:0px 1px 1px rgba(255,255,255,0.3),inset 0px 1px 2px rgba(0,0,0,0.15)} .trail.blue,.trail.blue a{color:#4fa3e0 }.trail.blue .text.current{border-color:#4b9ec9 #2e7fb4 #206fa8}.trail.blue .text.current:hover{border-color:#4092c0 #1f68a1 #175e97;background-color:#3f91c0;background:-moz-linear-gradient(top,#aad9ec,#72bad9 5%,#3f91c0 );background:-webkit-gradient(linear,left top,left bottom,from(#aad9ec),color-stop(0.05,#72bad9),to(#3f91c0) );filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#72bad9',EndColorStr='#3f91c0')}.trail.blue .text.current:active{border-color:#206fa8 #2e7fb4 #4b9ec9;background:-moz-linear-gradient(top,#3f91c0,#72bad9 );background:-webkit-gradient(linear,left top,left bottom,from(#3f91c0),to(#72bad9) );filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#3f91c0',EndColorStr='#aad9ec')} .trail.orange,.trail.orange a{color:#e87110 }.trail.orange .text.current{border-color:#f1820c #e35908 #df5107}.trail.orange .text.current:hover{background-color:#e5680e;border-color:#ee750a #de4e06 #d94606;background:-moz-linear-gradient(top,#f8bb22,#f49d1a 5%,#e5680e );background:-webkit-gradient(linear,left top,left bottom,from(#f8bb22),color-stop(0.05,#f49d1a),to(#e5680e) );filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#f49d1a',EndColorStr='#e5680e')}.trail.orange .text.current:active{border-color:#df5107 #e35908 #f1820c;background:-moz-linear-gradient(top,#e5680e,#f49d1a );background:-webkit-gradient(linear,left top,left bottom,from(#e5680e),to(#f49d1a) );filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#de770b',EndColorStr='#f0a71d')} .trail.green,.trail.green a{color:#72c113 }.trail.green .text.current{border-color:#80c501 #4eaa02 #3e9e02}.trail.green .text.current:hover{background-color:#65b80f;border-color:#73bc01 #419d02 #359202;background:-moz-linear-gradient(top,#cfeb13,#a8d90d 5%,#65b80f );background:-webkit-gradient(linear,left top,left bottom,from(#cfeb13),color-stop(0.05,#a8d90d),to(#65b80f) );filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#a8d90d',EndColorStr='#65b80f')}.trail.green .text.current:active{border-color:#359202 #419d02 #73bc01;text-shadow:0px -1px 1px #419d02;background:-moz-linear-gradient(top,#65b80f,#a8d90d );background:-webkit-gradient(linear,left top,left bottom,from(#65b80f),to(#a8d90d) );filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#65b80f',EndColorStr='#cfeb13')} .trail.red,.trail.red a{color:#c32a2a }.trail.red .text.current{border-color:#c80d08 #b20b09 #a20a0a}.trail.red .text.current:hover{background-color:#c31f1f;border-color:#bf0b06 #a00907 #960808;background:-moz-linear-gradient(top,#f75e4d,#ed4037 5%,#c31f1f );background:-webkit-gradient(linear,left top,left bottom,from(#f75e4d),color-stop(0.05,#ed4037),to(#c31f1f) );filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#ed4037',EndColorStr='#c31f1f')}.trail.red .text.current:active{border-color:#960808 #a00907 #bf0b06;background:-moz-linear-gradient(top,#c31f1f,#ed4037 );background:-webkit-gradient(linear,left top,left bottom,from(#c31f1f),to(#ed4037) );filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#c31f1f',EndColorStr='#ed4037')} .trail.purple,.trail.purple a{color:#a13bd0 }.trail.purple .text.current{border-color:#9e11dc #7c12bc #7413b4}.trail.purple .text.current:hover{background-color:#9532c8;border-color:#920ed6 #730fb7 #670fa9;background:-moz-linear-gradient(top,#dc52f3,#bf37e8 5%,#9532c8 );background:-webkit-gradient(linear,left top,left bottom,from(#dc52f3),color-stop(0.05,#bf37e8),to(#9532c8) );filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#bf37e8',EndColorStr='#9532c8')}.trail.purple .text.current:active{border-color:#670fa9 #730fb7 #920ed6;background:-moz-linear-gradient(top,#9532c8,#bf37e8 );background:-webkit-gradient(linear,left top,left bottom,from(#9532c8),to(#bf37e8) );filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#ee36a8',EndColorStr='#fb63bc')} .trail.pink,.trail.pink a{color:#f13fb }.trail.pink .text.current{border-color:#f93398 #ed1d91 #e41188}.trail.pink .text.current:hover{background-color:#ee36a8;border-color:#f82b8c #e71682 #e4117f;background:-moz-linear-gradient(top,#fd98d9,#fb63bc 5%,#ee36a8 );background:-webkit-gradient(linear,left top,left bottom,from(#fd98d9),color-stop(0.05,#fb63bc),to(#ee36a8) );filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#fb63bc',EndColorStr='#ee36a8')}.trail.pink a.text.current:active{border-color:#e4117f #e71682 #f82b8c;background:-moz-linear-gradient(top,#ee36a8,#fb63bc );background:-webkit-gradient(linear,left top,left bottom,from(#ee36a8),to(#fb63bc) );filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#ee36a8',EndColorStr='#fb63bc')}
+/* cache key: kolor_mediawiki-new-en_:resourceloader:filter:minify-css:7:bfee1434b1697eaf0af05c434afa8a3f */
+.fancybox-wrap,.fancybox-skin,.fancybox-outer,.fancybox-inner,.fancybox-image,.fancybox-wrap iframe,.fancybox-wrap object,.fancybox-nav,.fancybox-nav span,.fancybox-tmp{padding:0;margin:0;border:0;outline:none;vertical-align:top}.fancybox-wrap{position:absolute;top:0;left:0;z-index:8020}.fancybox-skin{position:relative;background:#f9f9f9;color:#444;text-shadow:none;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.fancybox-opened{z-index:8030}.fancybox-opened .fancybox-skin{-webkit-box-shadow:0 10px 25px rgba(0,0,0,0.5);-moz-box-shadow:0 10px 25px rgba(0,0,0,0.5);box-shadow:0 10px 25px rgba(0,0,0,0.5)}.fancybox-outer,.fancybox-inner{position:relative}.fancybox-inner{overflow:hidden}.fancybox-type-iframe .fancybox-inner{-webkit-overflow-scrolling:touch}.fancybox-error{color:#444;font:14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;margin:0;padding:15px;white-space:nowrap}.fancybox-image,.fancybox-iframe{display:block;width:100%;height:100%}.fancybox-image{max-width:100%;max-height:100%}#fancybox-loading,.fancybox-close,.fancybox-prev span,.fancybox-next span{background-image:url(http://www.kolor.com/wiki-en/extensions/FancyBoxThumbs/modules/fancyBox/source/fancybox_sprite.png?2014-12-05T08:53:20Z)}#fancybox-loading{position:fixed;top:50%;left:50%;margin-top:-22px;margin-left:-22px;background-position:0 -108px;opacity:0.8;cursor:pointer;z-index:8060}#fancybox-loading div{width:44px;height:44px;background:url(http://www.kolor.com/wiki-en/extensions/FancyBoxThumbs/modules/fancyBox/source/fancybox_loading.gif?2014-12-05T08:53:20Z) center center no-repeat}.fancybox-close{position:absolute;top:-18px;right:-18px;width:36px;height:36px;cursor:pointer;z-index:8040}.fancybox-nav{position:absolute;top:0;width:40%;height:100%;cursor:pointer;text-decoration:none;background:transparent url(http://www.kolor.com/wiki-en/extensions/FancyBoxThumbs/modules/fancyBox/source/blank.gif?2014-12-05T08:53:20Z); -webkit-tap-highlight-color:rgba(0,0,0,0);z-index:8040}.fancybox-prev{left:0}.fancybox-next{right:0}.fancybox-nav span{position:absolute;top:50%;width:36px;height:34px;margin-top:-18px;cursor:pointer;z-index:8040;visibility:hidden}.fancybox-prev span{left:10px;background-position:0 -36px}.fancybox-next span{right:10px;background-position:0 -72px}.fancybox-nav:hover span{visibility:visible}.fancybox-tmp{position:absolute;top:-99999px;left:-99999px;visibility:hidden;max-width:99999px;max-height:99999px;overflow:visible !important} .fancybox-lock{overflow:hidden}.fancybox-overlay{position:absolute;top:0;left:0;overflow:hidden;display:none;z-index:8010;background:url(http://www.kolor.com/wiki-en/extensions/FancyBoxThumbs/modules/fancyBox/source/fancybox_overlay.png?2014-12-05T08:53:20Z)}.fancybox-overlay-fixed{position:fixed;bottom:0;right:0}.fancybox-lock .fancybox-overlay{overflow:auto;overflow-y:scroll} .fancybox-title{visibility:hidden;font:normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;position:relative;text-shadow:none;z-index:8050}.fancybox-opened .fancybox-title{visibility:visible}.fancybox-title-float-wrap{position:absolute;bottom:0;right:50%;margin-bottom:-35px;z-index:8050;text-align:center}.fancybox-title-float-wrap .child{display:inline-block;margin-right:-100%;padding:2px 20px;background:transparent; background:rgba(0,0,0,0.8);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;text-shadow:0 1px 2px #222;color:#FFF;font-weight:bold;line-height:24px;white-space:nowrap}.fancybox-title-outside-wrap{position:relative;margin-top:10px;color:#fff}.fancybox-title-inside-wrap{padding-top:10px}.fancybox-title-over-wrap{position:absolute;bottom:0;left:0;color:#fff;padding:10px;background:#000;background:rgba(0,0,0,.8)}
+/* cache key: kolor_mediawiki-new-en_:resourceloader:filter:minify-css:7:a2dd790638e422f8d596008745d7e070 */
+.btn-transparent{color:#1F91D2;border-color:#000;border-width:1px;margin-bottom:5px}
+/* cache key: kolor_mediawiki-new-en_:resourceloader:filter:minify-css:7:b09e49a296735a0bdfd62cf1ce1c8d4b */
+.youtube-title{z-index:100!important;color:#fff!important;font-family:sans-serif!important;font-size:12px!important;top:10px!important;left:12px!important;position:absolute!important;margin:0!important;padding:0!important;line-height:1!important;font-style:normal!important;font-weight:normal!important}.youtube-button{margin:0!important;padding:0!important;width:60px!important;height:41px!important;z-index:100!important;position:absolute!important;top:50%!important;margin-top:-22px!important;left:50%!important;margin-left:-30px!important}
+/* cache key: kolor_mediawiki-new-en_:resourceloader:filter:minify-css:7:e1aa456e2228d9a3a96ad8745af80246 */
+.mw-collapsible-toggle{float:right;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none} caption .mw-collapsible-toggle{float:none} li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+/* cache key: kolor_mediawiki-new-en_:resourceloader:filter:minify-css:7:6c1d24e90626cec584f0869483f983e7 */
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:none;z-index:1099;padding:0;margin:-1px -1px 0 0} html > body .suggestions{margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0}.suggestions-result{color:black;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4C59A6;color:white}.suggestions-special .special-label{color:gray;text-align:left}.suggestions-special .special-query{color:black;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:silver}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:white}.highlight{font-weight:bold}
+/* cache key: kolor_mediawiki-new-en_:resourceloader:filter:minify-css:7:9f9511aa4ef920d34591113e825e6a1e */
+.postedit-container{margin:0 auto;position:fixed;top:0;height:0;left:50%;z-index:1000;font-size:13px}.postedit-container:hover{cursor:pointer}.postedit{position:relative;top:0.6em;left:-50%;padding:.6em 3.6em .6em 1.1em;line-height:1.5625em;color:#626465;background-color:#f4f4f4;border:1px solid #dcd9d9;text-shadow:0 0.0625em 0 rgba(255,255,255,0.5);border-radius:5px;-webkit-box-shadow:0 2px 5px 0 #ccc;box-shadow:0 2px 5px 0 #ccc;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.skin-monobook .postedit{top:6em !important}.postedit-faded{opacity:0}.postedit-icon{padding-left:41px;  line-height:25px;background-repeat:no-repeat;background-position:8px 50%}.postedit-icon-checkmark{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABblBMVEUAAAD///////9PfTf///80aRdTgjn///9Feij///////////9Rfzf///////////9PfjZRgDh1o1xOfTb///////+bwYqLtnj///////9PfTa82K////9WhT6YxIL///9QgDdTgzr////////j7uDl7eLq8efi693k7OH///////9UhjuBr2rp9uRUhjr///9YljVKgir///9WiTlYjT3////9/v57vFlbkT5PjC9dlD/5/fhuq09stUTs9uhxuElctCpfnT1huDFloEZloUZmpENmvDZpvDxpvTxqvjxrvT5rvT9rwTxsqktswD5uwkBvuUdxw0NztFBztU9ztVBzwkp0tlJ1xkd2t1R3uVR4w1F4xk54x014yE15uVZ5v1R5xVB6v1R7yFJ8wVh9xVl9yFR9yVd9ylN+xVh+yFd/x1l/yFeAylmEx1+Ny2uY0Hqe04Wj1Ymv3Ze33qLD47TJ5L3O6cPU7Mrq9eb2+/Q4j37OAAAAQHRSTlMAAQIEBAUFBQwPFB4fJCUoKiosQEhJS01RUlZZXmdydXaChYuSlJSWmJmoq6uur8LExcvM19fg5ejt8fX2+Pr7SljgewAAAKpJREFUGBkFwQNCAwAAAMDLtl3LtrG4rWXbtvX77gAgZ6grFwC0bhwNVgKgdPZx8b0dgLi+s7Wn0VoAqpfOI9+BNADZI7fLrz2pSEwGHZuH+78lSK8ZLkLezF3ooyUG3VPXq2USei9WngeyoG195yBYWDF3E/2pAhl1e9Gr8bGT+bfOFCC2fnvh4X7rcqIAQNNu+HT6sxkAjceTL/2ZAIhv+PorBwBJxfkA//dFHSCBy/UTAAAAAElFTkSuQmCC);background-image:url(http://www.kolor.com/wiki-en/resources/src/mediawiki.action/images/green-checkmark.png?2014-12-02T13:35:00Z)!ie;background-position:left}.postedit-close{position:absolute;padding:0 .8em;right:0;top:0;font-size:1.25em;font-weight:bold;line-height:2.3em;color:black;text-shadow:0 0.0625em 0 white;text-decoration:none;opacity:0.2;filter:alpha(opacity=20)}.postedit-close:hover{color:black;text-decoration:none;opacity:0.4;filter:alpha(opacity=40)}
+/* cache key: kolor_mediawiki-new-en_:resourceloader:filter:minify-css:7:4d6923e75690063ef03a856edd208f2d */</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:black;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:white}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}
+/* cache key: kolor_mediawiki-new-en_:resourceloader:filter:minify-css:7:ae3fa4570b5ac0c6cf7b3776c8ae4d6f */</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/load.css">
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: kolor_mediawiki-new-en_:resourceloader:filter:minify-css:7:016bb325e2dcf99225dedbd27ac5706f */</style>
+<script type="text/javascript" async="" src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/ga.js"></script><script src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/load.php"></script><script src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/load_005.php"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Autopano_Video_-_Stereo_(3D)","wgTitle":"Autopano Video - Stereo (3D)","wgCurRevisionId":28764,"wgRevisionId":28764,"wgArticleId":6884,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Autopano_Video_-_Stereo_(3D)","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"preview":true,"previewDialog":false,"publish":true}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"bootstrapskin","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,
+"useeditwarning":1,"prefershttps":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"wikieditor-publish":1,"breadcrumbs-showcrumbs":true,"breadcrumbs-delimiter":"\u003E","breadcrumbs-numberofcrumbs":5,"breadcrumbs-namespaces":false,"breadcrumbs-filter-duplicates":false,"breadcrumbs-preceding-text":"","language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs274":false,"searchNs275":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{})
+;
+/* cache key: kolor_mediawiki-new-en_:resourceloader:filter:minify-js:7:0656d2f0cebe5a978dea2bf5809859a8 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script><script src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/load_003.php"></script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/wiki-en/skins/bootstrapskin/csshover.min.htc")}</style><![endif]--><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-319843-12']);
+  _gaq.push(['_setDomainName', 'kolor.com']);
+  _gaq.push(['_setAllowHash', 'false']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" type="text/css" href="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/prettify.html"></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Autopano_Video_-_Stereo_3D skin-bootstrapskin action-view" style="display: block;">
+
+<div id="userbar" class="navbar">
+  <div class="navbar-inner">
+      <div class="col-md-8 pull-left hidden-xs hidden-sm">
+      <ul id="tabs-default-lighter" class="nav nav-tabs nav-tabs-lighter">
+        <li style="margin-top:10px">
+<!-- 0 -->
+
+<!-- /0 -->
+</li>
+		<li>
+<!-- 0 -->
+		  <ul class="nav" role="navigation">
+		  <li class="dropdown">
+		  <a data-toggle="dropdown" class="dropdown-toggle" role="button">Personal <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+          <li id="pt-anonuserpage"><a href="http://www.kolor.com/wiki-en/action/view/User:78.125.125.220" class="new" title="The user page for the IP address you are editing as [alt-shift-.]" accesskey=".">78.125.125.220</a></li><li id="pt-anontalk"><a href="http://www.kolor.com/wiki-en/action/view/User_talk:78.125.125.220" class="new" title="Discussion about edits from this IP address [alt-shift-n]" accesskey="n">Talk for this IP address</a></li><li id="pt-login"><a href="http://www.kolor.com/wiki-en/index.php?title=Special:UserLogin&amp;returnto=Autopano+Video+-+Stereo+%283D%29&amp;returntoquery=action%3Dview" title="You are encouraged to log in; however, it is not mandatory [alt-shift-o]" accesskey="o">Log in</a></li>          </ul>	
+          </li>
+          </ul>		  
+		  
+          
+<!-- /0 -->
+</li>
+        <li>
+<!-- 0 -->
+          <ul class="nav" role="navigation">
+            <li class="dropdown" id="p-namespaces">
+                            <a data-toggle="dropdown" class="dropdown-toggle brand" role="menu">Page <b class="caret"></b></a>
+                                                                                                      <ul aria-labelledby="Namespaces" role="menu" class="dropdown-menu">
+
+                <li id="ca-nstab-main" class="selected"><a href="http://www.kolor.com/wiki-en/action/view/Autopano_Video_-_Stereo_(3D)" title="View the content page [alt-shift-c]" accesskey="c" tabindex="-1">Page</a></li><li id="ca-talk" class="new"><a href="http://www.kolor.com/wiki-en/action/edit/Talk:Autopano_Video_-_Stereo_(3D)?redlink=1" title="Discussion about the content page [alt-shift-t]" accesskey="t" tabindex="-1">Discussion</a></li><li id="ca-viewsource"><a href="http://www.kolor.com/wiki-en/action/edit/Autopano_Video_-_Stereo_(3D)" title="This page is protected.
+You can view its source [alt-shift-e]" accesskey="e" tabindex="-1">View source</a></li><li id="ca-history" class="collapsible"><a href="http://www.kolor.com/wiki-en/action/history/Autopano_Video_-_Stereo_(3D)" title="Past revisions of this page [alt-shift-h]" accesskey="h" tabindex="-1">History</a></li></ul></li></ul>
+		    	  
+		  
+<!-- /0 -->
+</li>
+		
+		<li>
+<!-- 0 -->
+
+<!-- /0 -->
+</li>
+			<li></li>
+		<li>
+<!-- 0 -->
+
+          <ul class="nav" role="navigation">
+
+            <li class="dropdown" id="p-toolbox">
+
+              <a data-toggle="dropdown" class="dropdown-toggle" role="button">Tools <b class="caret"></b></a>
+
+              <ul aria-labelledby="Tools" role="menu" class="dropdown-menu">
+
+                <li id="t-info"><a href="http://www.kolor.com/wiki-en/action/info/Autopano_Video_-_Stereo_(3D)">Page information</a></li><li id="t-permalink"><a href="http://www.kolor.com/wiki-en/index.php?title=Autopano_Video_-_Stereo_(3D)&amp;oldid=28764" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-print"><a href="http://www.kolor.com/wiki-en/action/view/Autopano_Video_-_Stereo_(3D)?printable=yes" rel="alternate" title="Printable version of this page [alt-shift-p]" accesskey="p">Printable version</a></li><li class="divider"></li><li id="t-specialpages"><a href="http://www.kolor.com/wiki-en/action/view/Special:SpecialPages" title="A list of all special pages [alt-shift-q]" accesskey="q">Special pages</a></li><li id="t-recentchangeslinked"><a href="http://www.kolor.com/wiki-en/action/view/Special:RecentChangesLinked/Autopano_Video_-_Stereo_(3D)" title="Recent changes in pages linked from this page [alt-shift-k]" accesskey="k">Related changes</a></li><li class="divider"></li><li id="t-whatlinkshere"><a href="http://www.kolor.com/wiki-en/action/view/Special:WhatLinksHere/Autopano_Video_-_Stereo_(3D)" title="A list of all wiki pages that link here [alt-shift-j]" accesskey="j">What links here</a></li>				
+            </ul>
+			
+			</li>
+		  
+          </ul>
+
+          </li></ul>  
+		   
+          
+<!-- /0 -->
+
+	
+		
+      
+	  
+        
+<!-- 0 -->
+         
+         
+<!-- /navigation -->
+		
+      </div>
+	  </div>
+
+      <div class="pull-right">
+        
+<!-- 0 -->
+			<div class="input-group has-light hidden-xs hidden-sm">
+            <form class="navbar-search" action="/wiki-en/index.php" id="searchform">
+              <input id="searchInput" class="form-control" type="search" accesskey="f" title="Special:Search" placeholder="Search" name="search" autocomplete="off">
+			  <span class="input-group-btn">
+              <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="mw-searchButton" class="searchButton btn btn-default">			  </span>
+            </form>
+			</div>
+
+          
+<!-- /0 -->
+      </div>
+  </div>
+
+    <div id="mw-page-base" class="noprint"></div>
+    <div id="mw-head-base" class="noprint"></div>
+
+    <!-- Header -->
+    <div id="page-header" class="container-fluid signed-out">
+      <div class="pull-left">
+
+                      
+                  <ul class="nav logo-container" role="navigation"><li id="p-logo"><a href="http://www.kolor.com/wiki-en/action/view/Documentation" title="Visit the main page"><img src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/logo.png" alt="Autopano" style="width:90%"></a></li><li></li></ul>
+                  				  
+	  
+	  </div>
+
+      <div class="col-md-6 col-sm-4 pull-right">
+	  <ul class="navigation nav nav-pills pull-right searchform-disabled">
+
+      
+<!-- 0 -->
+
+                <li class=""><a href="http://www.kolor.com/wiki-en/action/view/Documentation" id="n-Documentation-index">Documentation index</a></li>
+                <li class=""><a href="http://www.kolor.com/en" id="n-Back-to-Kolor-site" rel="nofollow">Back to Kolor site</a></li>
+                <li class=""><a href="http://www.kolor.com/forum" id="n-Support-forums" rel="nofollow">Support forums</a></li>
+                <li class=""><a href="http://www.kolor.com/wiki-en/action/view/Special:RecentChanges" id="n-recentchanges" title="A list of recent changes in the wiki [alt-shift-r]" accesskey="r">Recent changes</a></li>
+<!-- /Navigation -->
+
+      </ul>
+
+    </div>
+    </div>
+
+    
+    
+    <!-- content -->
+    <section id="content" class="mw-body container-fluid 0">
+      <div id="top"></div>
+      <div id="mw-js-message" style="display:none;"></div>
+            <!-- bodyContent -->
+      <div id="bodyContent">
+                        <!-- jumpto -->
+        <div id="jump-to-nav" class="mw-jump">
+          Jump to: <a href="#mw-head">navigation</a>,
+          <a href="#p-search">search</a>
+        </div>
+        <!-- /jumpto -->
+        
+
+        <!-- innerbodycontent -->
+                  <div id="innerbodycontent" class="row nolayout"><div class="offset1 span10">
+            <h1 id="firstHeading" class="firstHeading page-header">
+              <span dir="auto">Autopano Video - Stereo (3D)</span>
+            </h1>
+            <!-- subtitle -->
+            <div id="contentSub" style="display:none;"></div>
+            <!-- /subtitle -->
+                        <div id="mw-content-text" dir="ltr" class="mw-content-ltr" lang="en"><div id="breadcrumbs"> <a href="http://www.kolor.com/wiki-en/action/view/Autopano_Video_-_Stereo_(3D)" title="Autopano Video - Stereo (3D)">Autopano Video - Stereo (3D)</a></div><div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2><span class="toctoggle">&nbsp;[<a href="#" class="internal" id="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Presentation"><span class="tocnumber">1</span> <span class="toctext">Presentation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Disparity_.3D_3D"><span class="tocnumber">1.1</span> <span class="toctext">Disparity = 3D</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Staging_of_3D"><span class="tocnumber">1.2</span> <span class="toctext">Staging of 3D</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#3D_settings_in_AVP"><span class="tocnumber">2</span> <span class="toctext">3D settings in AVP</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Assigning_cameras"><span class="tocnumber">2.1</span> <span class="toctext">Assigning cameras</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Center-to-center_distance_.28Interocular.29"><span class="tocnumber">2.2</span> <span class="toctext">Center-to-center distance (Interocular)</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Convergence"><span class="tocnumber">2.3</span> <span class="toctext">Convergence</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Rendering_modes"><span class="tocnumber">2.4</span> <span class="toctext">Rendering modes</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Advices"><span class="tocnumber">2.5</span> <span class="toctext">Advices</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#References"><span class="tocnumber">2.6</span> <span class="toctext">References</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<p><br>
+</p><p><br>
+</p>
+<h2><span class="mw-headline" id="Presentation">Presentation</span></h2>
+<p><br>
+To see the relief our brain uses offset visual spots of our 2 eyes.  To 
+recreate the depth perception on a video, you will have to show two 
+different images, one for each eye. Then our brain will understand this 
+offset called parallax, as if it was deepness.<br>
+<br><br><br>
+</p>
+<h3><span class="mw-headline" id="Disparity_.3D_3D">Disparity = 3D</span></h3>
+<p><br>
+The different point of view between our 2 eyes is understood by a 
+different position of objets on the left image and on the right image 
+(see image below).<br>
+This shift (change) of positions is called <b>disparity</b>. And more specifically the horizontal shifts give you the perception of 3D topography.<br>
+The disparity is materialized by  a cyan and red fringe all around the 
+objects. The more the disparity is large, the more the 3D feeling is 
+intense.<br>
+<br>
+</p>
+<pre><i class="fa fa-warning"></i> Caution, above a certain range of 3D topography the viewer will be disturbed. You must stay reasonable about the amount of 3D topography
+</pre>
+<p><br>
+<a href="http://www.kolor.com/wiki-en/action/view/File:Autopano_Video_Pro-_-StereoMode-_-Disparity.png" class="image fancybox" title="Disparity"><img alt="Disparity" src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/Autopano_Video_Pro-_-StereoMode-_-Disparity.png" width="400" height="400"></a>
+<br><br>
+In the example that you can see below, the buildings in the background 
+don't have any disparity. This is totally normal because they are far 
+away. The person in the front has an important disparity which means 
+that it will not be blended into the background. That's the effect we 
+are looking for. We must remind you that all the objets at equal 
+distance from the rig have the same disparity.
+<br><br><br><br>
+</p>
+<h3><span class="mw-headline" id="Staging_of_3D">Staging of 3D</span></h3>
+<p><br>
+The director can use two settings to set. The first one is the distance 
+between 2 points of view that affects the amount of 3D topography  and 
+the second is the convergence that changes the deepness of the scene.<br>
+<br>
+In the particular VR case you must set the center-to-center distance and
+ the convergence as follows&nbsp;: «&nbsp;center-to-center distance at 
+65mmm&nbsp;» and «&nbsp;convergence at infinity&nbsp;»<br>
+Unfortunately, these settings can't be automatically determinded in AVP.
+ Nevertheless AVP allows you to ajust these 2 settings with the 
+center-to-center distance (Interocular) slider and the value of 
+convergence. Please refer to the section <b>3D settings</b> in AVP for more details.
+<br>
+When it comes to broadcasting a 360 video on a screen the problem is 
+more complex and we won't give explanations about this subject.
+<br><br><br><br><br>
+</p>
+<h2><span class="mw-headline" id="3D_settings_in_AVP">3D settings in AVP</span></h2>
+<p><br>
+Stereo menu:
+<br>
+<a href="http://www.kolor.com/wiki-en/action/view/File:Autopano_Video_Pro-_-StereoMenu.png" class="image fancybox" title="Stereo menu"><img alt="Stereo menu" src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/Autopano_Video_Pro-_-StereoMenu.png" width="397" height="471"></a>
+<br>
+</p>
+<pre>Be sure you have ticked the <b>Stereo mode</b> box to activate this mode
+</pre>
+<p><br><br>
+</p>
+<h3><span class="mw-headline" id="Assigning_cameras">Assigning cameras</span></h3>
+<p><br>
+This setting will let you define the strategy which selects the best 
+images for the left eye rendering, then the right eye (see picture 
+below) <br>
+<br>
+<a href="http://www.kolor.com/wiki-en/action/view/File:Autopano_Video_Pro-_-CameraAssignement-choice.gif" class="image fancybox" title="Camera assignement"><img alt="Camera assignement" src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/Autopano_Video_Pro-_-CameraAssignement-choice.gif" width="400" height="400"></a>
+<br><br><br>
+</p><p>This strategy is chosen independently for each camera, so it is 
+possible to manage various RIG configurations. To define this strategy, 
+just click on the <b>Stereo</b> icon in the toolbar to display the Stereo settings. <br>
+<br>
+As shown in the Stereo menu image above, you can see the list of 
+cameras. For each of these, you can choose one of the 7 strategies for 
+the final render: <br>
+</p>
+<ul>
+<li> <b>Assignment</b>: <br>
+<ul>
+<li> Left and right&nbsp;: this camera will be used as much as possible for the two renders (very useful for zenith and nadir) <br>
+</li>
+<li> Left only&nbsp;: this camera will be used as much as possible for the left render. If you do have a choice, prefer one of the <b>Split</b> modes (see below) <br>
+</li>
+<li> Right only&nbsp;: this camera will be used as much as possible for 
+the right render. If you do have a choice, prefer one of the <b>Split</b> modes (see below) <br>
+</li>
+<li> Vertical split&nbsp;: the right part (resp. left) of the image will
+ be used for the left eye (resp. right). The delimitation depends on the
+ <b>Interocular</b> setting. <b>We recommend to use this setting for circular rigs with cameras placed in landscape mode</b>. <br>
+</li>
+<li> Vertical split inverted&nbsp;: the left part (resp. right) of the 
+image will be used for the left eye (resp. right). The delimitation 
+depends on the <b>Interocular</b> setting. <b>We recommend to use this setting for circular rigs with cameras placed in landscape mode, upside down</b>. <br>
+</li>
+<li> Horizontal split: the upper part (resp. lower) of the image will be
+ used for the left eye (resp. right). The delimitation depends on the <b>Interocular</b> setting. <b>We recommend to use this setting for circular rigs with cameras placed in portrait mode</b>. <br>
+</li>
+<li> Horizontal split inverted: the lower part (resp. upper) of the 
+image will be used for the left eye (resp. right). The delimitation 
+depends on the <b>Interocular</b> setting. <b>We recommend to use this setting for circular rigs with cameras placed in portrait mode</b>. <br>
+</li>
+</ul>
+</li>
+</ul>
+<p><br><br><br>
+</p>
+<h3><span class="mw-headline" id="Center-to-center_distance_.28Interocular.29">Center-to-center distance (Interocular)</span></h3>
+<p><br>
+</p>
+<pre><i class="fa fa-warning"></i> Caution: the center-to-center distance setting applies only for circular cameras in <b>Split</b> mode. The center-to-center distance is the distance<br>between two points of view.
+</pre>
+<p><br><br>
+I would point out that to create a proper and realistic 3D topography 
+with a HMD, the center-to-center distance must be as closely as possible
+ to the human eyes, usually 65mm. However, AVP propose a 
+center-to-center distance setting without standards of measurement (not 
+in mm). Indeed, the calculation of the center-to center distance in mm 
+depends on the RIG configuration which would require a complex 
+calibration. <br>
+<br>
+The center-to-center distance setting between:
+</p>
+<ul>
+<li> 0%: center-to-center distance is zero, no 3D
+</li>
+<li> 100%:  center-to-center distance as it maximum depending on the available overlapping <br>
+</li>
+</ul>
+<p><br>
+<a href="http://www.kolor.com/wiki-en/action/view/File:Autopano_Video_Pro-_-Entraxe.gif" class="image fancybox" title="Entraxe"><img alt="Entraxe" src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/Autopano_Video_Pro-_-Entraxe.gif" width="400" height="400"></a>
+<br><br>
+<b>Increasing center-to-center distance increase 3D topography</b>. <br>
+<br>
+The picture above shows the difference between a center-to-center 
+distance set to 50% and 100%. You can see the disparity (cyan and red 
+fringe ) visible on the character is changing, whereas it is not 
+changing on the buildings in the background.<br>
+<br>
+By default, AVP sets the center-to-center distance at 100% in order to: 
+</p>
+<ul>
+<li> 1 – maximize 3D topography effect and
+</li>
+<li> 2 – avoid areas without any 3D effect
+</li>
+</ul>
+<p><br>
+In practice, this value set at 100% gives the best results with some 
+RIGs we tested. However, if this default value does not suit you, you 
+can reduce center-to-center distance using the <b>Interocular&nbsp;</b> slider. <br>
+<br><br><br>
+</p>
+<h3><span class="mw-headline" id="Convergence">Convergence</span></h3>
+<p><br>
+</p>
+<pre><i class="fa fa-warning"></i> Caution: the entraxe setting applies only for circular cameras in <b>Split</b> mode.
+</pre>
+<p><br>
+Just below the <b>Interocular&nbsp;</b> (center-to-center distance) 
+slider, AVP let the possibility to correct the convergence angle (in 
+degrees). This parameter is modifying the reference convergence angle in
+ order to change the convergence distance. <br>
+<b>It is important to bear in mind that objects at a convergence distance will have zero disparity (no colored fringe).</b>
+<br><br>
+In the case you make a production for a HMD, you must set the 
+convergence to infinite. With this configuration the optical axes are 
+parallel and the convergence angle is equal to zero.  <b>This means you 
+must configure the convergence so that the infinitely distant objects 
+appear without disparity within the image (no colored fringe)</b> <br>
+The example below shows the convergence is incorrectly set as you can see a great disparity in the backgroung (buildings)
+<br>
+</p><p><a href="http://www.kolor.com/wiki-en/action/view/File:Autopano_Video_Pro-_-Convergence-1.png" class="image fancybox" title="Convergence"><img alt="Convergence" src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/Autopano_Video_Pro-_-Convergence-1.png" width="400" height="400"></a>
+<br>
+</p><p>Changing the converge moves the scene back and forth.
+<br><br>
+AVP will let you change the convergence to correct it if needed. This 
+corresponds to a deviation in degrees of the convergence angle against a
+ reference convergence. You must change this value until the disparity 
+on distant objects disappear (colored fringe). <br>
+In the example below, the convergence angle was choosen to remove the disparity on the buildings.
+<br>
+</p><p><a href="http://www.kolor.com/wiki-en/action/view/File:Autopano_Video_Pro-_-Convergence-0.png" class="image fancybox" title="Convergence"><img alt="Convergence" src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/Autopano_Video_Pro-_-Convergence-0.png" width="400" height="400"></a>
+<br>
+</p><p>Changing the converge moves the scene back and forth.<br>
+<b>By default</b>, we let the convergence to 0° to have the convergence visible on the different areas we use to stitch the pictures.<br>
+<br><br><br>
+</p>
+<h3><span class="mw-headline" id="Rendering_modes">Rendering modes</span></h3>
+<p><br>
+At the bottom of the Stereo window, you can choose which stereo setting 
+you want to apply. This choice is related to the diffusion method:
+</p>
+<ul>
+<li> Left-Only&nbsp;: only render the left eye <br>
+</li>
+<li> Right-Only: only render the right eye <br>
+</li>
+<li> Over/Under: render both eyes displayed below each other. This is the most popular mode in 360-3D (Youtube, …) <br>
+</li>
+<li> Side by Side: render both eyes displayed next to one another <br>
+</li>
+<li> Anaglyph: this is useful to manage the relief in the preview window but not appropriate with a HMD <br>
+</li>
+</ul>
+<p><br><br>
+Click <b>Apply</b> to save the settings: <br>
+</p>
+<ul>
+<li> Camera assignation <br>
+</li>
+<li> Center-to-center distance value <br>
+</li>
+<li> Convergence value <br>
+</li>
+<li> Rendering mode <br>
+</li>
+</ul>
+<p>Once validated, it is applied to the preview window.
+<br><br><br><br>
+</p>
+<h3><span class="mw-headline" id="Advices">Advices</span></h3>
+<p><br>
+To be sure you will get the best results, we recommend to use a RIG with
+ 5 or 7 cameras placed in a circular manner (i.e. GoPro Odyssey, Google 
+Jump). You can add camera to the zenith or nadir where the stereo vision
+ is not the important part. <br>
+<br>
+For best results in relief, we recommend to use the <b>Split</b> mode 
+(refer to Assigning cameras above). Indeed, this means  a better 3D 
+stereo vision because the most appropriate camera will be used. However,
+ using this mode will create more cutting zones where the parallax can 
+be a problem (especially on close objects). As it is often the case, it 
+requires some compromises. Consider whether the 3D vision quality ot 
+whether the stitching quality.<br>
+<br><br><br><br>
+</p>
+<h3><span class="mw-headline" id="References">References</span></h3>
+<p><br>
+For more details about stereo shooting techniques, please refer to <a rel="nofollow" class="external text" href="https://www.amazon.com/3D-Movie-Making-Stereoscopic-Digital/dp/0240811372/187-6258640-3117266?ie=UTF8&amp;ref_=la_B001TABG8U_1_1&amp;s=books">3D Movie Making: Stereoscopic Digital Cinema from Script to Screen</a>
+</p><p><br>
+</p><p><br>
+</p><p><br>
+</p><p><br>
+</p><p><br>
+</p><p><br>
+</p><p><b>BACK TO:</b> <a href="http://www.kolor.com/wiki-en/action/view/Documentation" title="Documentation">Documentation</a> / <a href="http://www.kolor.com/wiki-en/action/view/Autopano_Video_Documentation" title="Autopano Video Documentation">Autopano Video Documentation</a>
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 0.056 seconds
+Real time usage: 0.133 seconds
+Preprocessor visited node count: 42/1000000
+Preprocessor generated node count: 50/1000000
+Post‐expand include size: 0/102891520 bytes
+Template argument size: 0/102891520 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key kolor_mediawiki-new-en_:pcache:idhash:6884-0!*!0!!en!2!* and timestamp 20190204035106 and revision id 28764
+ -->
+</div>          </div></div>
+                <!-- /innerbodycontent -->
+
+                <!-- printfooter -->
+        <div class="printfooter">
+        Retrieved from "<a href="http://www.kolor.com/wiki-en/index.php?title=Autopano_Video_-_Stereo_(3D)&amp;oldid=28764">http://www.kolor.com/wiki-en/index.php?title=Autopano_Video_-_Stereo_(3D)&amp;oldid=28764</a>"        </div>
+        <!-- /printfooter -->
+                        <!-- catlinks -->
+        <div id="catlinks" class="catlinks catlinks-allhidden"></div>        <!-- /catlinks -->
+                        <div class="visualClear"></div>
+        <!-- debughtml -->
+                <!-- /debughtml -->
+      </div>
+      <!-- /bodyContent -->
+    </section>
+    <!-- /content -->
+
+      <!-- footer -->
+      
+      <div id="footer" class="footer container-fluid custom-footer">	<!--<div class="buttons-whitespace-social text-center">
+    <a href="http://www.twitter.com/share?url=http://www.mediawikibootstrapskin.co.uk/&amp;text=Mediawiki%20BootStrap%20Skin" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=600');return false;"><button type="button" class="btn btn-cyanide btn-social"><i class="fa fa-twitter-square"></i></button></a>
+	
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.mediawikibootstrapskin.co.uk/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=600');return false;"><button type="button" class="btn btn-info btn-social"><i class="fa fa-facebook-square"></i></button></a>
+	
+	<a href="https://plus.google.com/share?url=http://www.mediawikibootstrapskin.co.uk/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=600');return false;"><button type="button" class="btn btn-berry btn-social"><i class="fa fa-google-plus-square"></i></button></a>
+	
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.mediawikibootstrapskin.co.uk/&amp;title=Mediawiki%20BootStrap%20|Skin&amp;summary=Mediawiki%20BootStrap%20Skin&amp;source=http://www.mediawikibootstrapskin.co.uk/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=600');return false;"><button type="button" class="btn btn-cyanide btn-social"><i class="fa fa-linkedin-square"></i></button></a>
+	
+	
+    <a href="http://www.tumblr.com/share?v=3&amp;u=http%3A//www.mediawikibootstrapskin.co.uk/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=600');return false;"><button type="button" class="btn btn-info btn-social"><i class="fa fa-tumblr-square"></i></button></a>	
+    </div>-->
+	
+	<div id="footer" class="footer container-fluid">
+    <div class="row">
+	
+            <ul id="footer-places">
+                              <li id="footer-places-privacy"><a href="http://www.kolor.com/wiki-en/action/view/Autopano:Privacy_policy" title="Autopano:Privacy policy">Privacy policy</a></li>
+                              <li id="footer-places-about"><a href="http://www.kolor.com/wiki-en/action/view/Autopano:About" title="Autopano:About">About Autopano</a></li>
+                              <li id="footer-places-disclaimer"><a href="http://www.kolor.com/wiki-en/action/view/Autopano:General_disclaimer" title="Autopano:General disclaimer">Disclaimers</a></li>
+                            <li id="pt-login"><a href="http://www.kolor.com/wiki-en/index.php?title=Special:UserLogin&amp;returnto=Autopano+Video+-+Stereo+%283D%29&amp;returntoquery=action%3Dview">Log in</a></li>            </ul>
+          	</div>
+	</div>	
+	
+    <footer>
+      <ul id="footer-icons" class="noprint text-center">
+        <li id="footer-poweredbyico">
+        <a href="http://www.mediawiki.org/">
+          <img src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/poweredby_mediawiki_88x31.html" alt="Powered by MediaWiki" width="88" height="31">
+        </a> 
+        <a href="http://www.mediawikibootstrapskin.co.uk/">
+          <img src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/BootStrapSkin_mediawiki_88x31.html" alt="Powered by BootStrapSkin" width="88" height="31">
+        </a>
+      </li></ul>
+      <p class="text-center no-margins push-up">
+      <a href="#" class="color-hover-white">Kolor 2004 - 2014</a> © All Rights Reserved</p>
+    </footer></div>
+    <script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"skins.bootstrapskin":"loading","site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/load_004.php"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.BootStrapSkinCrumbs","ext.youtube","ext.tothetop","ext.FancyBoxThumbs"],null,true);
+}</script>
+<script>
+var fbtFancyBoxOptions = {"openEffect":"elastic","closeEffect":"elastic","helpers":{"title":{"type":"inside"}}};
+</script>
+<script src="Autopano%20Video%20-%20Stereo%20(3D)%20-%20Autopano_files/load_006.php"></script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":502});
+}</script>
+  
+
+<div style="display: none; font-size: 16px;" class="suggestions"><div class="suggestions-results"></div><div class="suggestions-special"></div></div></body></html>

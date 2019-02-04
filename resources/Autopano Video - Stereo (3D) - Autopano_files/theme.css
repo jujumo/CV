@@ -1,0 +1,120 @@
+/* Add your custom theme overrides here */
+
+#p-logo {
+    top: -5px;
+}
+
+/*
+* HEADER SPACING
+*/
+div#breadcrumbs {
+	margin-bottom: 50px;
+	padding-top: 10px
+}
+
+/*
+* TITLES SPACING
+*/
+#mw-content-text>h2 {
+	border-bottom: 1px solid #CCC;
+	margin-top: 50px;
+	padding-bottom: 10px;
+}
+#mw-content-text>h3 {
+	margin-top: 40px
+}
+#mw-content-text>h4 {
+	margin-top: 30px
+}
+#mw-content-text>h5 {
+	margin-top: 20px
+}
+
+/*
+* TABLES
+*/
+td, th {
+	padding: 15px
+}
+
+
+/*
+* TOC
+*/
+#toc, .toc {
+    width: 30%;
+    max-width: 500px;
+    margin: 0px;
+}
+.mw-content-ltr .toc ul, .mw-content-ltr #toc ul {
+    margin: 10px;
+}
+#toctitle h2 {
+	font-size: 33px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.toclevel-1 {
+	margin-bottom: 10px;
+}
+.toclevel-1>a {
+	font-size: 19px;
+}
+.toclevel-1 a span.tocnumber {
+	font-weight: bold;
+	padding-right: 10px;
+}
+.toclevel-1 a span.tocnumber:after {
+	content:".";
+}
+/*.toclevel-1>ul>li>a>span.tocnumber {
+	font-weight: bold;
+	padding-right: 5px;
+}
+.toclevel-1>ul>li>a>span.tocnumber:after {
+	content:".";
+}*/
+
+/* 
+* MARGIN AROUND IMAGES
+*/
+div.tleft, div.floatleft, table.floatleft {
+	margin-right: 30px
+}
+
+/* 
+* LINE HEIGHT OF LISTS
+*/
+.mw-content-ltr ol, .mw-content-rtl .mw-content-ltr ol {
+	line-height: 1.5em
+}
+
+/* 
+* Sublists separation
+*/
+li>ul,
+li>ol {
+	margin-bottom: 10px !important
+}
+
+.carousel-page {
+    width: 100%;
+    height: 400px;
+    background-color: #5f666d;
+    color: white;
+}
+/*.mw-content-ltr {
+    min-height: 400px;
+}*/
+.layout .firstHeading {
+    display: block;
+}
+
+
+/*
+* SOURCE CODE
+*/
+.mw-content-ltr {
+	margin-bottom: 20px
+}
